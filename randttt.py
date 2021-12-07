@@ -1,5 +1,5 @@
 import random
-import getch
+#import getch
 class Cell:
   "cell class for making cells"
   def __init__(self,x,y):
@@ -313,8 +313,8 @@ def main():
   
 
   while 1 == 1:
-    direction = getch.getch()
-
+    #direction = getch.getch()
+    direction = input()
     if direction.upper() == 'S' or  direction.upper() == 'W' or direction.upper() == 'A' or direction.upper() == 'D' or direction.upper() == 'J'or  direction.upper() == 'K'or  direction.upper() == 'L'or  direction.upper() == 'I'or  direction.upper() == 'P':
 
 

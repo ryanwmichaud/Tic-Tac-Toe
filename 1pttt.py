@@ -8,7 +8,7 @@
 
 
 import random
-#import getch
+import getch
 class Cell:
   "cell class for making cells"
   def __init__(self,x,y):
@@ -67,13 +67,13 @@ class Board:
     self.b2=0
 
     #color for when p1 activates
-    self.r1a=150
-    self.g1a=100
-    self.b1a=40
+    self.r1a=110
+    self.g1a=190
+    self.b1a=90
     #color for when p2 activates
-    self.r2a=75
-    self.g2a=100
-    self.b2a=150
+    self.r2a=140
+    self.g2a=120
+    self.b2a=80
     #color for selector
     self.rs=255
     self.gs=255
@@ -438,8 +438,8 @@ def main():
   
 
   while 1 == 1:
-    #direction = getch.getch()
-    direction = input()
+    direction = getch.getch()
+    #direction = input()
     if direction.upper() == 'S' or  direction.upper() == 'W' or direction.upper() == 'A' or direction.upper() == 'D' or direction.upper() == 'J'or  direction.upper() == 'K'or  direction.upper() == 'L'or  direction.upper() == 'I'or  direction.upper() == 'P'or  direction.upper() == 'R':
 
 

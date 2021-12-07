@@ -53,7 +53,6 @@ class Board:
     self.moves=0
     self.block=(0,0)
     self.win=(0,0)    
-    
 
     #color for when p1 activates
     self.r1a=150
