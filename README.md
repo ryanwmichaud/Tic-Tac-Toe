@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-implementation of tic tac toe w algorithm
+Implementation of Tic Tac Toe w algorithm
 
 ttt.py allows you to play against an algorithm. use wasd to move the cursor and p to make a move currently need to hit enter after every keystroke
 
